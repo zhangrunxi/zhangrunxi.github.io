@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://d98wqr.coding-pages.com</id>
+    <id>http://zhangrunxi.github.io</id>
     <title>Gridea</title>
-    <updated>2020-03-14T03:08:45.153Z</updated>
+    <updated>2020-03-14T03:13:17.167Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://d98wqr.coding-pages.com"/>
-    <link rel="self" href="http://d98wqr.coding-pages.com/atom.xml"/>
+    <link rel="alternate" href="http://zhangrunxi.github.io"/>
+    <link rel="self" href="http://zhangrunxi.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>http://d98wqr.coding-pages.com/images/avatar.png</logo>
-    <icon>http://d98wqr.coding-pages.com/favicon.ico</icon>
+    <logo>http://zhangrunxi.github.io/images/avatar.png</logo>
+    <icon>http://zhangrunxi.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>http://d98wqr.coding-pages.com/post/hello-gridea/</id>
-        <link href="http://d98wqr.coding-pages.com/post/hello-gridea/">
+        <id>http://zhangrunxi.github.io/post/hello-gridea/</id>
+        <link href="http://zhangrunxi.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
