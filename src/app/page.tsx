@@ -11,7 +11,6 @@ export default function Home() {
 
   const socialLinks = [
     { name: "赞赏", key: "buyMeACoffee" },
-    { name: "X", key: "x" },
     { name: "小红书", key: "xiaohongshu" },
     { name: "微信公众号", key: "wechat" },
   ]

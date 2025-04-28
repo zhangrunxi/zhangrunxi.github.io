@@ -4,8 +4,8 @@ export const config = {
     name: "Measure & Explore",
     description: "个人工作日记",
     keywords: ["motion planning", "AI", "autonomous driving"],
-    url: "https://xxx.com",
-    baseUrl: "https://xxx.com",
+    url: "https://runxi.me",
+    baseUrl: "https://runxi.me",
     image: "https://xxx.com/og-image.png",
     favicon: {
       ico: "/favicon.ico",
@@ -28,12 +28,13 @@ export const config = {
     name: "Rex",
     email: "dumbbird1989@gmail.com",
     bio: "分享者是最大的受益者",
+    avatar: "/avatar.png"
   },
   social: {
     github: "https://github.com/zhangrunxi",
     x: "https://x.com/rexzhang89",
     //xiaohongshu: "https://www.xiaohongshu.com/user/profile/xxx",
-    //wechat: "https://storage.xxx.com/images/wechat-official-account.png",
+    wechat: "https://blog-1259199090.cos.ap-shanghai.myqcloud.com/img/%E5%85%AC%E4%BC%97%E5%8F%B7.jpg",
     //buyMeACoffee: "https://www.buymeacoffee.com/xxx",
   },
   
@@ -48,6 +49,10 @@ export const config = {
       { 
         title: "文章", 
         href: "/blog",
+      },
+      {
+        title: "课程",
+        href: "/course",
       },
     ],
   },
