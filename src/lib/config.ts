@@ -1,6 +1,6 @@
 export const config = {
   site: {
-    title: "方寸格物录",
+    title: "方寸格物",
     name: "Measure & Explore",
     description: "个人工作日记",
     keywords: ["motion planning", "AI", "autonomous driving"],
