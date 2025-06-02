@@ -17,4 +17,4 @@ slug: "focus-truth-review"
 书中探讨了注意力在这个时代的稀缺
 
 专注的真相的脑图如下：
-![专注的真相-脑图](/pic/专注的真相-脑图.png)
+![专注的真相-脑图](https://blog-1259199090.cos.ap-shanghai.myqcloud.com/img/%E4%B8%93%E6%B3%A8%E7%9A%84%E7%9C%9F%E7%9B%B8-%E8%84%91%E5%9B%BE.png)
