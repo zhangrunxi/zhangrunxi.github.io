@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Your Name - 技术博客</title>
+    <description>分享编程经验、技术见解和开发心得</description>
+    <link>https://yourusername.github.io/blog.html</link>
+    <atom:link href="https://yourusername.github.io/rss.xml" rel="self" type="application/rss+xml" />
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 15 Nov 2023 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title><![CDATA[现代Web开发趋势：2023年回顾]]></title>
+      <link>https://yourusername.github.io/blog/2023/modern-web-development-trends.html</link>
+      <description><![CDATA[探讨2023年Web开发领域的重要趋势，包括前端框架的演进、新工具链的崛起，以及开发者应该如何适应这些变化。从React Server Components到边缘计算，让我们一起回顾这一年的技术发展。]]></description>
+      <category><![CDATA[技术分享]]></category>
+      <pubDate>Wed, 15 Nov 2023 00:00:00 GMT</pubDate>
+      <guid>https://yourusername.github.io/blog/2023/modern-web-development-trends.html</guid>
+    </item>
+
+    <item>
+      <title><![CDATA[Node.js性能优化：10个实用技巧]]></title>
+      <link>https://yourusername.github.io/blog/2023/nodejs-performance-tips.html</link>
+      <description><![CDATA[分享在生产环境中优化Node.js应用性能的实用技巧，包括内存管理、异步处理、数据库查询优化等方面。通过实际案例和代码示例，帮助你构建更高效的Node.js应用。]]></description>
+      <category><![CDATA[最佳实践]]></category>
+      <pubDate>Sat, 28 Oct 2023 00:00:00 GMT</pubDate>
+      <guid>https://yourusername.github.io/blog/2023/nodejs-performance-tips.html</guid>
+    </item>
+
+    <item>
+      <title><![CDATA[微服务架构实战：从单体到分布式]]></title>
+      <link>https://yourusername.github.io/blog/2023/microservices-architecture-journey.html</link>
+      <description><![CDATA[记录将一个大型单体应用重构为微服务架构的全过程，包括设计决策、技术选型、遇到的挑战和解决方案。从服务拆分策略到API网关设计，分享实用的迁移经验。]]></description>
+      <category><![CDATA[项目经验]]></category>
+      <pubDate>Tue, 12 Sep 2023 00:00:00 GMT</pubDate>
+      <guid>https://yourusername.github.io/blog/2023/microservices-architecture-journey.html</guid>
+    </item>
+
+    <item>
+      <title><![CDATA[TypeScript高级模式：提升代码质量的技巧]]></title>
+      <link>https://yourusername.github.io/blog/2023/typescript-advanced-patterns.html</link>
+      <description><![CDATA[深入探讨TypeScript的高级特性和设计模式，包括条件类型、映射类型、装饰器等。通过实际案例展示如何利用这些特性编写更安全、更易维护的代码。]]></description>
+      <category><![CDATA[学习笔记]]></category>
+      <pubDate>Sat, 05 Aug 2023 00:00:00 GMT</pubDate>
+      <guid>https://yourusername.github.io/blog/2023/typescript-advanced-patterns.html</guid>
+    </item>
+
+    <item>
+      <title><![CDATA[2023年VSCode必备扩展推荐]]></title>
+      <link>https://yourusername.github.io/blog/2023/vscode-extensions-2023.html</link>
+      <description><![CDATA[精心挑选的VSCode扩展清单，包括代码编辑、调试、版本控制、项目管理等方面的工具。这些扩展将显著提升你的开发效率和代码质量。]]></description>
+      <category><![CDATA[工具推荐]]></category>
+      <pubDate>Thu, 20 Jul 2023 00:00:00 GMT</pubDate>
+      <guid>https://yourusername.github.io/blog/2023/vscode-extensions-2023.html</guid>
+    </item>
+  </channel>
+</rss>

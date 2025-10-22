@@ -1,0 +1,77 @@
+# GitHub Pages Configuration
+# Site settings
+title: Your Name - 个人主页
+description: 全栈开发者的个人网站，分享技术见解和项目经验
+baseurl: ""
+url: "https://yourusername.github.io"
+
+# Theme and styling
+theme: null
+plugins: []
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Permalinks
+permalink: pretty
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+
+# Include specific files
+include:
+  - _pages
+  - _posts
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:year/:month/:day/:name/
+
+# SEO and social media
+twitter:
+  username: yourusername
+  card: summary
+
+social:
+  name: Your Name
+  links:
+    - https://twitter.com/yourusername
+    - https://github.com/yourusername
+    - https://linkedin.com/in/yourprofile
+
+# Google Analytics (optional)
+google_analytics: UA-XXXXXXXX-X
+
+# Feed settings
+feed:
+  path: rss.xml
+
+# Site author
+author:
+  name: Your Name
+  email: your.email@example.com
+  uri: https://yourusername.github.io
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Your Name"
+      categories: "技术分享"

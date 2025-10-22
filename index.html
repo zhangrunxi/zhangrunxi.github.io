@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页 - Rex 🦕</title>
+    <meta name="description" content="Rex的个人主页，全栈开发者，霸王龙爱好者，分享技术见解和项目经验">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav-brand">
+                    <a href="index.html">Your Name</a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#about">关于我</a></li>
+                    <li><a href="#projects">项目</a></li>
+                    <li><a href="#blog">博客</a></li>
+                    <li><a href="#contact">联系</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <!-- Dinosaur Avatar -->
+                <div class="hero-avatar">
+                    <div class="dino-avatar">
+                        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="dino-svg">
+                            <!-- Dino Body -->
+                            <ellipse cx="100" cy="140" rx="45" ry="35" fill="#4ade80" stroke="#22c55e" stroke-width="2"/>
+
+                            <!-- Dino Head -->
+                            <ellipse cx="65" cy="120" rx="30" ry="28" fill="#4ade80" stroke="#22c55e" stroke-width="2"/>
+
+                            <!-- Dino Tail -->
+                            <path d="M 145 140 Q 165 125 175 145" fill="none" stroke="#22c55e" stroke-width="8" stroke-linecap="round"/>
+                            <ellipse cx="178" cy="145" rx="12" ry="10" fill="#4ade80" stroke="#22c55e" stroke-width="2"/>
+
+                            <!-- Dino Legs -->
+                            <rect x="85" y="165" width="8" height="20" rx="4" fill="#4ade80" stroke="#22c55e" stroke-width="1"/>
+                            <rect x="95" y="165" width="8" height="20" rx="4" fill="#4ade80" stroke="#22c55e" stroke-width="1"/>
+                            <rect x="105" y="165" width="8" height="20" rx="4" fill="#4ade80" stroke="#22c55e" stroke-width="1"/>
+
+                            <!-- Dino Eye -->
+                            <circle cx="50" cy="115" r="8" fill="white"/>
+                            <circle cx="52" cy="117" r="5" fill="#1f2937"/>
+                            <circle cx="53" cy="116" r="2" fill="white"/>
+
+                            <!-- Dino Smile -->
+                            <path d="M 45 125 Q 50 128 55 125" fill="none" stroke="#1f2937" stroke-width="2" stroke-linecap="round"/>
+
+                            <!-- Dino Spikes -->
+                            <path d="M 75 100 L 72 85 L 78 90 Z" fill="#fbbf24" stroke="#f59e0b" stroke-width="1"/>
+                            <path d="M 90 95 L 87 80 L 93 85 Z" fill="#fbbf24" stroke="#f59e0b" stroke-width="1"/>
+                            <path d="M 105 95 L 102 80 L 108 85 Z" fill="#fbbf24" stroke="#f59e0b" stroke-width="1"/>
+
+                            <!-- Little Arms -->
+                            <ellipse cx="65" cy="135" rx="8" ry="12" fill="#4ade80" stroke="#22c55e" stroke-width="2" transform="rotate(-20 65 135)"/>
+                            <ellipse cx="135" cy="135" rx="8" ry="12" fill="#4ade80" stroke="#22c55e" stroke-width="2" transform="rotate(20 135 135)"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Rex</span></h1>
+                <p class="hero-subtitle">全栈开发者 | 🦕 霸王龙 | 开源爱好者</p>
+                <p class="hero-description">
+                    专注于现代Web开发技术，热爱创造优雅的解决方案。在这里分享我的技术见解和项目经验。
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">查看项目</a>
+                    <a href="#contact" class="btn btn-outline">联系我</a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/yourusername" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/yourprofile" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://twitter.com/yourusername" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="mailto:your.email@example.com" class="social-link" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        我是一名充满激情的全栈开发者，拥有5年以上的软件开发经验。专注于使用现代技术栈构建高性能、用户友好的Web应用。
+                    </p>
+                    <p>
+                        我的专长包括前端开发（React、Vue、TypeScript）、后端开发（Node.js、Python、Go）以及云服务部署（AWS、Docker、Kubernetes）。
+                    </p>
+                    <p>
+                        除了编程，我还热爱开源贡献，维护着几个GitHub项目，并且经常参与技术社区的分享和讨论。
+                    </p>
+                </div>
+                <div class="about-skills">
+                    <h3>技术栈</h3>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h4>前端</h4>
+                            <div class="skills-tags">
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">TypeScript</span>
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">Vue.js</span>
+                                <span class="skill-tag">HTML/CSS</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>后端</h4>
+                            <div class="skills-tags">
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">Go</span>
+                                <span class="skill-tag">PostgreSQL</span>
+                                <span class="skill-tag">MongoDB</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>工具</h4>
+                            <div class="skills-tags">
+                                <span class="skill-tag">Git</span>
+                                <span class="skill-tag">Docker</span>
+                                <span class="skill-tag">AWS</span>
+                                <span class="skill-tag">CI/CD</span>
+                                <span class="skill-tag">Linux</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">精选项目</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">项目一：开源框架</h3>
+                        <p class="project-description">
+                            一个轻量级的前端框架，简化复杂Web应用的开发过程，提供直观的API和优秀的性能。
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">TypeScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/project1" class="project-link">
+                                <i class="fab fa-github"></i> 源码
+                            </a>
+                            <a href="https://project1-demo.com" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> 演示
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">项目二：移动应用</h3>
+                        <p class="project-description">
+                            跨平台移动应用，提供无缝的用户体验，支持iOS和Android平台，已获得10万+下载量。
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/project2" class="project-link">
+                                <i class="fab fa-github"></i> 源码
+                            </a>
+                            <a href="https://apps.apple.com/project2" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> 下载
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">项目三：数据分析平台</h3>
+                        <p class="project-description">
+                            企业级数据分析和可视化平台，帮助团队更好地理解和利用业务数据，做出数据驱动的决策。
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/project3" class="project-link">
+                                <i class="fab fa-github"></i> 源码
+                            </a>
+                            <a href="https://project3-demo.com" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> 演示
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="section">
+        <div class="container">
+            <h2 class="section-title">最新博客</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-meta">
+                        <time datetime="2023-11-15">2023年11月15日</time>
+                        <span class="blog-category">技术分享</span>
+                    </div>
+                    <h3 class="blog-title">
+                        <a href="blog/2023/modern-web-development-trends.html">现代Web开发趋势：2023年回顾</a>
+                    </h3>
+                    <p class="blog-excerpt">
+                        探讨2023年Web开发领域的重要趋势，包括前端框架的演进、新工具链的崛起，以及开发者应该如何适应这些变化...
+                    </p>
+                    <div class="blog-tags">
+                        <span class="blog-tag">Web开发</span>
+                        <span class="blog-tag">前端</span>
+                        <span class="blog-tag">趋势</span>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-meta">
+                        <time datetime="2023-10-28">2023年10月28日</time>
+                        <span class="blog-category">最佳实践</span>
+                    </div>
+                    <h3 class="blog-title">
+                        <a href="blog/2023/nodejs-performance-tips.html">Node.js性能优化：10个实用技巧</a>
+                    </h3>
+                    <p class="blog-excerpt">
+                        分享在生产环境中优化Node.js应用性能的实用技巧，包括内存管理、异步处理、数据库查询优化等方面...
+                    </p>
+                    <div class="blog-tags">
+                        <span class="blog-tag">Node.js</span>
+                        <span class="blog-tag">性能优化</span>
+                        <span class="blog-tag">后端</span>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-meta">
+                        <time datetime="2023-09-12">2023年9月12日</time>
+                        <span class="blog-category">项目经验</span>
+                    </div>
+                    <h3 class="blog-title">
+                        <a href="blog/2023/microservices-architecture-journey.html">微服务架构实战：从单体到分布式</a>
+                    </h3>
+                    <p class="blog-excerpt">
+                        记录将一个大型单体应用重构为微服务架构的全过程，包括设计决策、技术选型、遇到的挑战和解决方案...
+                    </p>
+                    <div class="blog-tags">
+                        <span class="blog-tag">微服务</span>
+                        <span class="blog-tag">架构设计</span>
+                        <span class="blog-tag">DevOps</span>
+                    </div>
+                </article>
+            </div>
+            <div class="section-actions">
+                <a href="blog.html" class="btn btn-outline">查看全部文章</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">联系我</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>
+                        如果您对我的项目感兴趣，或者想要讨论合作机会，欢迎通过以下方式联系我：
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>电子邮件</h4>
+                                <a href="mailto:your.email@example.com">your.email@example.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/yourusername">github.com/yourusername</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>LinkedIn</h4>
+                                <a href="https://linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">姓名</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">邮箱</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">主题</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">消息</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">发送消息</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Rex</h3>
+                    <p>全栈开发者 | 🦕 霸王龙 | 开源爱好者</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/yourusername" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/yourprofile" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com/yourusername" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="mailto:your.email@example.com" class="social-link" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="#about">关于我</a></li>
+                        <li><a href="#projects">项目</a></li>
+                        <li><a href="#blog">博客</a></li>
+                        <li><a href="#contact">联系</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>最新文章</h4>
+                    <ul>
+                        <li><a href="blog/2023/modern-web-development-trends.html">现代Web开发趋势</a></li>
+                        <li><a href="blog/2023/nodejs-performance-tips.html">Node.js性能优化</a></li>
+                        <li><a href="blog/2023/microservices-architecture-journey.html">微服务架构实战</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Rex. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
